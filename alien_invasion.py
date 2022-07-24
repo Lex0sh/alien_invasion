@@ -155,7 +155,7 @@ class AlienInvasion:
         # umenshaet ships_left
         if self.stats.ships_left > 0:
             self.stats.ships_left -= 1
-            self.sb.prep_ships()
+            self.sb.prep_ships
 
             #ochistka spiskov prishelcev i snaryadov
             self.aliens.empty()
